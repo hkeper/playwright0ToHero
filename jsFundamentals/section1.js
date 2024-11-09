@@ -74,3 +74,16 @@ name(name, surName)
 import * as helper from '../jsFundamentals/section1.js'
 helper.func1(customer.firstName, customer.lastName)
 
+export class CustomerDetails {
+
+    /**
+     * This function prints name
+     * @param {name} name 
+     */
+    printName(name){
+        console.log(name)
+    }
+}
+
+//Or create export here
+//export var customer = new CustomerDtails();
